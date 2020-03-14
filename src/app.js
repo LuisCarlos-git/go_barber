@@ -10,7 +10,8 @@ class App {
   }
 
   middlewares() {
-    this.server.use(express.json()); //usar o json
+    // usar o json
+    this.server.use(express.json());
   }
 
   routes() {
