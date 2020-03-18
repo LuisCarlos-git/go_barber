@@ -1,7 +1,8 @@
 import express from 'express';
+
 import routes from './routes';
 
-import './database/index';
+import './database/index'; // arquivo de configuração do banco de dados
 
 class App {
   constructor() {
